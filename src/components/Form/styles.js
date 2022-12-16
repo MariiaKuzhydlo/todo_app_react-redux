@@ -30,6 +30,7 @@ export const SInput = styled.div`
 		height:35px;
 		border:1px solid lightgray;
 		border-radius:3px;
+		padding:5px 10px;
 	}
 	& > button {
 		width:20%;
