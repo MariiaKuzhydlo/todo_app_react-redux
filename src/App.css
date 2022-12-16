@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.wrapper{
+	width: 500px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid rgb(184, 184, 184);
+	border-radius: 3px;
+}
+@media(max-width:500px) {
+	.wrapper{
+		max-width: 440px;
+	}
+}
+@media(max-width:450px) {
+	.wrapper{
+		max-width: 340px;
+	}
+}
